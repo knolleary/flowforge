@@ -14,7 +14,8 @@ export default defineConfig({
         coverage: {
             src: ['./frontend/src'],
             reportsDirectory: './coverage/frontend',
-            all: true
+            all: true,
+            reporter: [ 'json' ]
         }
     },
     resolve: {
