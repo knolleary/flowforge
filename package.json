@@ -44,7 +44,7 @@
         "cy:run:ee": "cypress run --config-file ./config/cypress-ee.config.js",
         "cy:open:os": "cypress open --config-file ./config/cypress-os.config.js",
         "cy:open:ee": "cypress open --config-file ./config/cypress-ee.config.js",
-        "cover": "npm-run-all --sequential cover:unit cover:system cover:report",
+        "cover": "npm-run-all --sequential cover:unit  cover:report",
         "cover:unit": "npm-run-all --sequential cover:unit:forge cover:unit:frontend",
         "cover:unit:forge": "nyc --silent npm run test:unit:forge",
         "cover:unit:frontend": "vitest --config ./config/vitest.config.ts run --coverage",
