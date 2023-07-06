@@ -49,7 +49,7 @@
         "cover:unit:forge": "nyc --silent npm run test:unit:forge",
         "cover:unit:frontend": "vitest --config ./config/vitest.config.ts run --coverage",
         "cover:system": "nyc --silent --no-clean npm run test:system",
-        "cover:report": "nyc report --reporter=text --reporter html --report-dir './coverage/forge'",
+        "cover:report": "nyc report --reporter=text --reporter=lcov --reporter html --report-dir './coverage/forge'",
         "install-stack": "node scripts/install-stack.js --"
     },
     "dependencies": {
