@@ -1,4 +1,4 @@
 {
     "all": true,
-    "include": ["forge/**"]
+    "include": ["forge/**", "frontend/src/**"]
 }
