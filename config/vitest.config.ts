@@ -14,7 +14,7 @@ export default defineConfig({
         coverage: {
             provider: 'istanbul',
             src: ['./frontend/src'],
-            reportsDirectory: './coverage/frontend',
+            reportsDirectory: 'coverage/reports/frontend',
             all: true,
             reporter: [ 'json' ]
         }
