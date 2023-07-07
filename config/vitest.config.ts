@@ -12,6 +12,7 @@ export default defineConfig({
         globals: true,
         environment: 'jsdom',
         coverage: {
+            provider: 'istanbul',
             src: ['./frontend/src'],
             reportsDirectory: './coverage/frontend',
             all: true,
